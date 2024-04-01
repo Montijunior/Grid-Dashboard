@@ -1,1 +1,179 @@
 /*  background-color: rgb(25, 146, 212); */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.sidebar{
+    background-color: rgb(25, 146, 212);
+    color: white;
+    display: grid;
+    grid-gap: 10px;
+    padding: 20px;
+    grid-row: 1/3;
+}
+.second{
+    list-style: none;
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+}
+.second-logo{
+    margin-right: 10px;
+}
+.third{
+    list-style: none;
+    display: grid;
+    grid-gap: 5px;
+}
+.third-logo{
+    margin-right: 10px;
+}
+.logo img{
+    margin-right: 10px;
+}
+
+.header{
+    display: grid;
+    grid-gap: 10px;
+    /* height: 80px; */
+    padding: 15px;
+}
+.top-left{
+    display: flex;
+    align-items: center;
+}
+.top-left *{
+    margin-right: 10px;
+}
+.top-left input{
+    width: 97%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.top-header,.bottom-header{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+.top-right * {
+    margin-right: 20px;
+}
+.bottom-left{
+    display: flex;
+    align-items: center;
+}
+.bottom-left h4{
+    font-size: 11px;
+}
+.bottom-left p{
+    font-weight: 600;
+}
+.bottom-left img{
+    margin-right: 15px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.articles-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #ebebeb;
+    grid-row: 2/3;
+    padding: 15px;
+    gap: 15px;
+}
+.articles-container h4{
+    margin-bottom: -7px;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+.card{
+    border-left: 5px solid yellow;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    /* height: 120px; */
+    display: grid;
+    gap: 20px;
+}
+.card .icons {
+    justify-self: end;
+}
+.card .icons img{
+    margin-left: 20px;
+}
+.card h3{
+    font-size: 14px;
+}
+.card p{
+    font-size: 12px;
+}
+
+.card-maintenance{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.card-maintenance div{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.card-maintenance div h5{
+    font-size: 14px;
+}
+.card-maintenance div p{
+    font-size: 12px;
+}
+
+.trending-card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.trending h2{
+    margin: 10px 0;
+    font-size: 16px;
+}
+button{
+    background-color: rgb(25, 146, 212);
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 15px;
+}
+.bottom-right{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.trending-card > div{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.trending-card > div > div{
+    margin-left: 15px;
+}
+.trending-card > div > div p{
+    font-size: 14px;
+    color: rgb(208, 158, 158);
+}
+
