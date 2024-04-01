@@ -1,12 +1,1 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-.container{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-}
+/*  background-color: rgb(25, 146, 212); */
